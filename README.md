@@ -27,7 +27,7 @@ Starting from the last three items in the taks list:
 A UML diagram has been included in a PDF file (UML.pdf) which is available when you clone the repository
 
 ###### Show me a database model.
-A sample database is include in the `DB` directory `intenation.sql`, import the database or symply run `php artisan migrate` to create tables. Note that when runing the migration command you would have configured your database connection details in the `.env` file (explained the How to run the application section)
+A sample database is include in the `DB` directory `intenation.sql`, import the database or symply run `php artisan migrate` to create tables. Note that when runing the migration command you would have configured your database connection details in the `.env` file (explained in the  **How to run the application** section)
 
 ###### Design a convenient API that other developers would love to use for the tasks above.
 API documentation has been included in a Postman collection which can be found in [Postman API collection] (https://documenter.getpostman.com/view/139351/SVmpWMgL?version=latest)
