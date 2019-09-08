@@ -41,7 +41,7 @@ This code challenge was built with Laravel 6.0 (PHP framework).
 ###### Step to run the application
 You must have PHP >= 7.2, Composer, a web server (e.eg Apache or Nginx), MySql and Git installed on your machine
 
-- Clone this repository `https://github.com/michelkal/user-management.git`
+- Clone this repository `git clone https://github.com/michelkal/user-management.git`
 - `cd user-management`
 - `composer update`
 - Rename `.env.example` to `.env`
