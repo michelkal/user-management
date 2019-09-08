@@ -74,7 +74,7 @@ If you wish to start the application in other port than `8000` you can add the `
 
 ###### Login
 
-Browse (http://127.0.0.1:8000) and login. Now you can Add User, Create Role, Create Group, Delete/Edit User, Delete Group, Delete/Role, Create API access token that willl be used in the API
+Browse (http://127.0.0.1:8000) and login. Now you can Add User, Create Role, Create Group, Delete/Edit User, Delete Group, Delete Role, Create API access token that willl be used in the API
 
 ## NEXT
 No next - Check out the application and also consume the API and ejnoy :)
