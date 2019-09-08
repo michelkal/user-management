@@ -39,7 +39,7 @@ To consume the API, the admin of this system will create API user which will gen
 This code challenge was built with Laravel 6.0 (PHP framework).
 
 ###### Step to run the application
-You must have PHP >= 7.2 installed, Composer, a web server (e.eg Apache or Nginx), MySql and Git on your machine
+You must have PHP >= 7.2, Composer, a web server (e.eg Apache or Nginx), MySql and Git installed on your machine
 
 - Clone this repository `https://github.com/michelkal/user-management.git`
 - `cd user-management`
