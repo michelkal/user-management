@@ -32,8 +32,6 @@ class APILock
             
             $validateToken = $user->validateApiToken($details);
 
-            //dd($validateToken);
-
             if(isset($validateToken['status']) && isset($validateToken['payload']) && isset($validateToken['payload']->orgCode) && $validateToken['status'] === 1){
 
                 if ($validateToken['payload']->grantId !== 'admin') {
