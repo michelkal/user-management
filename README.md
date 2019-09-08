@@ -47,12 +47,15 @@ You must have PHP >= 7.2, Composer, a web server (e.eg Apache or Nginx), MySql a
 - Rename `.env.example` to `.env`
 - Edit `.env` to include your database configuration as seen here 
 
-`DB_CONNECTION=mysql`
-`DB_HOST=127.0.0.1`
-`DB_PORT=3306`
-`DB_DATABASE=Your_DB_Name`
-`DB_USERNAME=Your_DB_User`
-`DB_PASSWORD=Your_DB_Password`
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=Your_DB_Name
+DB_USERNAME=Your_DB_User
+DB_PASSWORD=Your_DB_Password
+
+```
 
 - Migrate the DB table by running `php artisan migrate`, this will create all the tables used in this application and can be found in `database/migrations` directory.
 
